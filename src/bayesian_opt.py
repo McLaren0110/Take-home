@@ -24,7 +24,7 @@ def evaluate_model(model, X, y, cv=5):
 
     Returns:
         dict: A dictionary containing the evaluation scores for each fold.
-            The dictionary has the following keys: 'f1', 'precision', 'recall', 'accuracy'.
+            The dictionary has the following keys: 'f1', 'precision', 'recall', 'accuracy', 'roc_auc'.
             The values are lists of scores for each fold.
     """
     cv = StratifiedKFold(n_splits=cv, shuffle=True, random_state=42)
