@@ -1,0 +1,1 @@
+{"iterations": 700, "learning_rate": 0.09995647810782864, "depth": 6, "l2_leaf_reg": 9.990451490855785, "cat_features": ["Employment_Status", "home_owner_flag", "agreed_missed_flag", "missed_payment", "never_paid"], "random_seed": 42, "verbose": false}
